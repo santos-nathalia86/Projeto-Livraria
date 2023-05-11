@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/book.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+/*NAVBAR*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: aliceblue;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link li{
+    margin: 0 30px;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.box{
+    display: flex;
+}
+.img-box{
+    background-color:  rgba(255, 253, 254, 0.086);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+.img-box img {
+    width: 250px;
+    height: 250px;
+}
+
+form .input{
+    margin-bottom: 10px;
+}
+form .input input{
+    width: 70%;
+    height: 40px;
+    align-items: center;
+    background-color:  rgba(255, 253, 254, 0.086);
+    border-radius: 20px;
+    color: black;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.4s ease ;
+}
+form .input input:focus{
+    border-color: #e22d97;
+}
+
+form .input-submit{
+
+    background-color:  rgba(233, 13, 123, 0.851);
+    padding: 8px 5px;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 15px;
+    color: black;
+}
+
+.ctn{
+    padding: 8px 5px;
+    background-color:  rgba(158, 20, 89, 0.648);
+    border-radius: 30px;
+    width: 70%;
+    margin-top: 15px;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: aliceblue;
+}
+.line{
+    height: 4px;
+    background: #e22d97;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+select{
+    width: 70%;
+    height: 40px;
+    background-color: rgba(218, 50, 134, 0.315);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin-top: 15px;
+    color: Black;
+    cursor: pointer;
+    font-size: 20px;
+}

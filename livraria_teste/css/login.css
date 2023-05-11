@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url("../img/pao.jpg");
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 16px;
+    color:black;
+}
+
+input { 
+    padding: 17px;
+    width: 300px;
+    height: 27px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 20px;   
+    color: black;     
+    outline: 1px solid #6c63ff;
+}
+
+.inputSenha{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.show, .hide {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
+}
+
+input:hover {
+    background-color: #eeeeee75;
+}
+
+button {
+    background-color: rgb(189, 56, 230);
+    border: none;
+    padding: 17px;
+    width: 100%;
+    border-radius: 20px;
+    color: rgb(7, 5, 5);
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+button:hover {
+    background-color: rgb(205, 106, 224);
+    color: black;
+
+}
+
+h1 {
+    color:black;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: black;
+}

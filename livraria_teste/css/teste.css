@@ -1,0 +1,95 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/book.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+/*NAVBAR*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: aliceblue;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link li{
+    margin: 0 30px;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.box{
+    display: flex;
+}
+.img-box{
+    background-color:  rgba(255, 253, 254, 0.086);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+}
+.img-box img {
+    width: 100%;
+}
+.form-box{
+    background-color:  rgba(255, 253, 254, 0.086);
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+}
+.form-box form {
+    margin: 20px 0;
+}
+form .input-group{
+    margin-bottom: 10px;
+}
+form .input-group input{
+    width: 100%;
+    height: 40px;
+    background-color:  rgba(255, 255, 255, 0.32);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+    transition: all 0.4s ease ;
+}
+form .input-group input:focus{
+    border-color: #e22d97;
+}
+form .input-group button{
+    width: 100%;
+    height: 40px;
+    background: #e22d97;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 15px;
+}
